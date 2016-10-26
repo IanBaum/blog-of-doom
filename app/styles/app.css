@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #333;
+  color: #EEE;
+}
+
+button{
+  background-color: #555;
+}
+
+a {
+  display: flex;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #DDD;
+}
+
+#links {
+  justify-content: space-between;
+}
+
+a:hover {
+  color: maroon;
+  text-decoration: none;
+}
+
+#author {
+  font-family: cursive;
+}
+
+#display-image {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+
+}
+
+#content {
+ font-size: 18px;
+ margin-bottom: 5%;
+}t
+
+#new-post {
+  margin-bottom: 10%;
+}
+
+li {
+  list-style: none;
+}

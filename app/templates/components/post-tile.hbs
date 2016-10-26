@@ -1,7 +1,18 @@
 <li>
-  {{post.title}}
-  {{post.date}}
-  {{post.author}}
-  <img src={{post.image}}>
-  {{post.content}}
+  <div id="title">
+    <h1>{{post.title}}</h1>
+  </div>
+  <div id="date">
+    {{post.date}}
+  </div>
+  <div id="author">
+    {{post.author}}
+  </div>
+  <div>
+    <img id="display-image" src={{post.image}}>
+  </div>
+  <div id="content">
+    {{post.content}}
+  </div>
+  <button {{action 'delete' post}}>Banish Demon</button>
 </li>
