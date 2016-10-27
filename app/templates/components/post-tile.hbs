@@ -1,6 +1,6 @@
 <li>
   <div id="title">
-    <h1>{{post.title}}</h1>
+    {{#link-to 'post' post.id}}{{post.title}}{{/link-to}}
   </div>
   <div id="date">
     {{post.date}}
@@ -14,5 +14,4 @@
   <div id="content">
     {{post.content}}
   </div>
-  <button {{action 'delete' post}}>Banish Demon</button>
 </li>
